@@ -22,3 +22,26 @@ function response (content) {
   res.setContent(JSON.stringify(content))
   return res
 }
+
+
+function sendMessage() {
+  const reminds = PropertiesService.getScriptProperties().getProperties();
+  const keys = Object.keys(reminds);
+  const now = new Date().getTime();
+  for (let i=keys.length;i--;){
+    const remind = JSON.parse(reminds[keys[i]]);
+    if( now - Number(remind[0]) >=0){
+      console.log(remind)
+      PropertiesService.getScriptProperties().deleteProperty(keys[i]);
+      const payload = {
+        "content" : remind[2]
+      }
+      const options = {
+        "method" : "POST",
+        "contentType" : "application/json",
+        "payload" : JSON.stringify(payload)
+      }
+      UrlFetchApp.fetch(remind[1],options);
+    }
+  }
+}
