@@ -1,0 +1,25 @@
+{
+    "embeds" : [
+  {
+    "title" : "/deck_code",
+    "description" : "/deck_code の使用方法です。",
+    "fields" : [
+      {
+        "name" : "__機能__",
+        "value" : "```リマインダーを設定します。```"
+      },
+      {
+        "name" : "__使用方法__",
+        "value" : "```リマインド日時と内容を入力してください。```"
+      },
+      {
+        "name" : "使用例",
+        "value" : "```(画像参照)```"
+      }
+    ],
+    "image" : {
+      "url" : "https://cdn.discordapp.com/attachments/1059445954647969862/1060531352887365692/image.png"
+    }
+  }
+    ]
+  }
