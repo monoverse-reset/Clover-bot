@@ -12,3 +12,13 @@ function createTable(arr){
   console.log(text);
   return text;
 }
+
+
+function response (content) {
+  const res = ContentService.createTextOutput()
+  // レスポンスの Content-Type ヘッダーに "application/json" を設定する
+  res.setMimeType(ContentService.MimeType.JSON)
+  // オブジェクトを文字列にしてからレスポンスに詰め込む
+  res.setContent(JSON.stringify(content))
+  return res
+}
