@@ -1,0 +1,46 @@
+{
+    "embeds" : [
+      {
+        "title" : "機能一覧",
+      "description" : "Clover-botの機能一覧です。\n各コマンドの詳細は、/help を実行してください。",
+      "fields" : [
+        {
+          "name" : "__各種コマンド__",
+          "value" : "```詳細は/help で表示できます。```"
+        },
+  
+        {
+          "name" : "/deck_servey",
+          "value" : "```使用可能デッキ調査をします。```",
+          "inline" : true
+        },
+        {
+          "name" : "/deck_code",
+          "value" : "```デッキコードからデッキURLを生成します。```",
+          "inline" : true
+  
+        },
+        {
+          "name" : "/user_id",
+          "value" : "```ゲーム内のユーザーIDを検索します。```",
+          "inline" : true
+  
+        },
+        {
+          "name" : "/reminder",
+          "value" : "```リマインダーを設定します。```",
+          "inline" : true
+  
+        },
+        {
+          "name" : "/help",
+          "value" : "```各コマンドの詳細を表示します。```",
+          "inline" : true
+  
+        }
+  
+      ]
+  
+    }
+    ]
+  }
