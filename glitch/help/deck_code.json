@@ -1,0 +1,25 @@
+{
+    "embeds" : [
+  {
+    "title" : "/deck_code",
+    "description" : "/deck_code の使用方法です。",
+    "fields" : [
+      {
+        "name" : "__機能__",
+        "value" : "```デッキコードから、デッキURLを生成します。```"
+      },
+      {
+        "name" : "__使用方法__",
+        "value" : "```選択肢にデッキコードを入力してください。```"
+      },
+      {
+        "name" : "使用例",
+        "value" : "```/deck_servey 1h0I```"
+      }
+    ],
+    "image" : {
+      "url" : "https://cdn.discordapp.com/attachments/1059445954647969862/1059811158632177694/image.png"
+    }
+  }
+    ]
+  }
