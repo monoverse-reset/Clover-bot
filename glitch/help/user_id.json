@@ -1,0 +1,57 @@
+{
+    "embeds" : [
+  {
+    "title" : "/user_id",
+    "description" : "/user_idのガイド",
+    "fields" : [
+      {
+        "name" : "__機能__",
+        "value" : "```メンバーのShadowverse IDを表示します。```"
+      },
+      {
+        "name" : "__使用方法__",
+        "value" : "```表示したいメンバーを選択してください。```"
+      },
+      {
+        "name" : "__使用例__",
+        "value" : "```/deck_servey @reset```"
+      },
+      {
+        "name" : "__OPTIONS__",
+        "value" : "```オプション機能```"
+      },
+      {
+        "name" : "everyone",
+        "value" : "```全員のIDを表示します。指定するメンバーは誰でもいいです。```",
+        "inline" : true
+      },
+      {
+        "name" : "delete",
+        "value" : "```指定したメンバーの登録を削除します。```",
+        "inline" : true
+      },
+      {
+        "name" : "append",
+        "value" : "```メンバーを登録します。既に情報がある場合は上書きします。```",
+        "inline" : true
+      },{
+        "name" : "__APPEND__",
+        "value" : "```メンバーを登録する際の設定です。```"
+      },
+      {
+        "name" : "id",
+        "value" : "```ShadowverseIDを入力してください。```",
+        "inline" : true
+      },
+      {
+        "name" : "name",
+        "value" : "```メンバーの名前を入力してください。```",
+        "inline" : true
+      }
+    ],
+    "image" : {
+      "url" : "https://cdn.discordapp.com/attachments/1059445954647969862/1060524533456584814/image.png"
+    }
+  }
+    ]
+  }
